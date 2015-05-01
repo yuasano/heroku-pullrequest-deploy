@@ -1,0 +1,17 @@
+{
+  "name":"heroku-pullrequest-deploy",
+  "description":"sample of pullrequest deploy",
+  "scripts":{},
+  "env":{
+    "DATABASE_URL":{
+      "required":true
+    },
+    "HOGEHOGE":{
+      "generator":"secret"
+    }
+  },
+  "addons":[
+    "rediscloud",
+    "heroku-postgresql"
+  ]
+}
